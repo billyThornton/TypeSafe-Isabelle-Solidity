@@ -237,90 +237,90 @@ This document provides links to key function and definition locations in the Sol
 
 <a name="sublocD"></a>
 
-### sublocD - LSubPrefL2
-*Note: Referenced throughout TypeSafe files but not found as standalone definition*
+### sublocs - LSubPrefL2
+[`definition LSubPrefL2`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Hashing_Subs.thy#L144-L146)
 
 <a name="typMemSubD"></a>
 
-### typMemSubD - TypedMemSubPrefPtrs Definition
-[`definition TypedMemSubPrefPtrs`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L155)
+### Typed Memory Sublocations - TypedMemSubPrefPtrs Definition
+[`definition TypedMemSubPrefPtrs`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L80-L84)
 
 <a name="compMemSubD"></a>
 
-### compMemSubD - CompMemType Definition
-[`definition CompMemType`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L204)
+### Compatiable Memory Sub-Locations - CompMemType Definition
+[`definition CompMemType`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L16-L21)
 
 <a name="typeStoSubD"></a>
 
-### typeStoSubD - TypedStoSubpred Definition
-[`definition TypedStoSubpred`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Storage.thy#L129)
+### Typed Storage Sub-Locations - TypedStoSubpref Definition
+[`definition TypedStoSubpref`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Storage.thy#L121-L127)
 
 <a name="compStoSubD"></a>
 
-### compStoSubD - CompStoType Definition
-[`definition CompStoType`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Storage.thy#L166)
+### Compatiable Storage Sub-Locations - CompStoType Definition
+[`definition CompStoType`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Storage.thy#L205-L211)
 
 <a name="typesafeDef"></a>
 
-### typesafeDef - TypeSafe1 Definition
-[`definition typesafe1`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Statements.thy#L28)
+### TypeSafe - Definition of the properties required for a typesafe environment
+[`definition typesafe1`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L753-L766)
 
 <a name="typeconD"></a>
 
-### typeconD - TypeCon Definition
-[`definition typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L33)
+### TypeCon - Definition of the type consistency of values and base types
+[`definition typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Base_Types.thy#L7-L11)
 
 <a name="mconD"></a>
 
-### mconD - MCon Definition
-[`definition MCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L70)
+### MCon - Memory Type Consistency
+[`definition MCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L37-L53)
 
 <a name="sconD"></a>
 
-### sconD - SCon Definition
-[`definition SCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Storage.thy#L70)
+### SCon - Storage Type Consistency
+[`definition SCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Storage.thy#L99-L103)
 
 <a name="typecompatD"></a>
 
-### typecompatD - TypeCompat Definition
-[`definition typeCompat`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L113)
+### TypeCompat - Large type compatability
+[`definition typeCompat`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L582-L606)
 
 <a name="uniqLocD"></a>
 
-### uniqLocD - Unique Locations Definition
-[`definition unique_locations`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L113)
+### unique_locations - Ensure that locations with same type have same value
+[`definition unique_locations`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L141-L142)
 
 <a name="compmemptrsD"></a>
 
-### compmemptrsD - CompMemPtrs
-*Note: Referenced in commit history but may have been removed or renamed*
+### CommpMemPtrs - CompMemPtrs ensure type compatiablity of pointer structures
+[`definition CompMemPtrs`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L90-L111)
 
 <a name="lesstopD"></a>
 
-### lesstopD - LessThanTopLocs Definition
-[`definition LessThanTopLocs`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L135)
+### lesstop - LessThanTopLocs Definition
+[`definition LessThanTopLocs`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L157-L159)
 
 <a name="safecontractD"></a>
 
-### safecontractD - Safe Contract
-[`definition safecontract`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Contracts.thy#L89)
+### safecontract - Safe Contract Definition
+[`definition safecontract`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L739-L742)
 
 <a name="methodvarsD"></a>
 
-### methodvarsD - MethodVarsNoPref
-[`definition methodVarsNoPref`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Contracts.thy#L67)
+### methodvarsNoPrefix - MethodVarsNoPref
+[`definition methodVarsNoPref`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L735-L737)
 
 ## Accounts and Balance
 
 <a name="baltypesD"></a>
 
-### baltypesD - Balance Types
-[`definition balanceTypes`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Contracts.thy#L44)
+### balancetypes - Balance Types
+[`definition balanceTypes`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L493-L494)
 
 <a name="svalueTypes"></a>
 
 ### svalueTypes - SValue Types
-[`definition svalueTypes`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Contracts.thy#L52)
+[`definition svalueTypes`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L499-L500)
 
 <a name="accountD"></a>
 
@@ -329,76 +329,73 @@ This document provides links to key function and definition locations in the Sol
 
 <a name="AddressTypesD"></a>
 
-### AddressTypesD - Address Types Definition
-[`type_synonym Address`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/Valuetypes.thy#L120)
+### AddressTypes - Address Types Definition
+[`definition AddressTypes`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L728-L729)
 
 <a name="atypeD"></a>
 
-### atypeD - Account Type Definition
+### atype - Account Type Definition
 [`datatype atype`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/Accounts.thy#L9-L11)
 
 <a name="fullyInitialisedD"></a>
 
-### fullyInitialisedD - Fully Initialised Definition
-[`definition fullyInitialised`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Statements.thy#L131)
+### Contract Fully Initialised - Fully Initialised Definition
+[`definition fullyInitialised`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Def.thy#L721-L726)
 
 <a name="memoryLinkageD"></a>
 
-### memoryLinkageD - Memory Linkage Properties
-[`definition memoryLinkage`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Statements.thy#L144)
+### MemoryLinkage - Memory Linkage Properties
+[`definition memoryLinkage`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L14291-L14296)
 
 ## Type Safety Lemmas
 
 <a name="mselTcL"></a>
 
-### mselTcL - Memory Select TypeCon Lemma
-[`lemma msel_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L245)
+### msel_typeCon - Memory Select TypeCon Lemma
+[`lemma msel_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L14400-L14651)
 
 <a name="sselTcL"></a>
 
-### sselTcL - Storage Select TypeCon Lemma
-[`lemma ssel_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L312)
+### ssel_typeCon - Storage Select TypeCon Lemma
+[`lemma ssel_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L14652-L14780)
 
 <a name="rexpTcL"></a>
 
-### rexpTcL - Right Expression TypeCon Lemma
-[`lemma rexp_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L398)
+### rexp_typeCon - Right Expression TypeCon Lemma
+[`lemma rexp_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L16171-L16708)
 
 <a name="lexpStorageL"></a>
 
-### lexpStorageL - Left Expression Storage Lemma
-[`lemma lexpStorageG`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Storage.thy#L245)
+### lexpStorageG - Left Expression Storage Lemma
+[`lemma lexpStorageG`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe.thy#L479-L604)
 
 <a name="lexpMemL"></a>
 
 ### lexpMemL - Left Expression Memory Lemma
-[`lemma lexpIndexMem`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L267)
+[`lemma lexpIndexMem`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe.thy#L426-L477)
 
 <a name="TSStatementL"></a>
 
-### TSStatementL - TypeSafe Statements Lemma
-[`lemma TypeSafe_Statements`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Statements.thy#L189)
+### TSStatements - TypeSafe Statements Lemma
+[`lemma TypeSafe_Statements`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe.thy#L617)
 
 <a name="exprTcL"></a>
 
-### exprTcL - Expression TypeCon Lemma
-[`lemma expr_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L156)
+### expr_typeCon - Expression TypeCon Lemma
+[`lemma expr_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L14273-L14288)
 
 <a name="mcCpm2mL"></a>
 
-### mcCpm2mL - MCon Copy Memory to Memory Lemma
-[`lemma MCon_cpm2m`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Memory.thy#L322)
+### MCon_cpm2m - MCon Copy Memory to Memory Lemma
+[`lemma MCon_cpm2m`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L3292-L3438)
 
 <a name="loadTcL"></a>
 
-### loadTcL - Load TypeCon Lemma
-[`lemma load_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L289)
+### load_typeCon - Load TypeCon Lemma
+[`lemma load_typeCon`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L14290-L14308)
 
 <a name="tsDeclL"></a>
 
-### tsDeclL - TypeSafe Declaration Lemma
-[`lemma typesafe_decl`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Statements.thy#L167)
+### typesafe_Decl - TypeSafe Declaration Lemma
+[`lemma typesafe_decl`](https://github.com/billyThornton/TypeSafe-Isabelle-Solidity/blob/main/TypeSafe_Expressions.thy#L8684-L8722)
 
----
-
-*Note: Replace `REPO_URL` with the actual GitHub repository URL. Some definitions may have variations in naming or location across different versions of the files in the artefact directories.*
